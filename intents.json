@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "Que tal",
+        "Buen dia",
+        "Hey  hola",
+        "Saludos",
+        "Que onda",
+        "k tal",
+        "Hi"
+      ],
+      "responses": [
+        "¡Hola! ¿En que puedo ayudarte hoy?",
+        "¡Hola! ¿Como puedo ayudarte con tus preguntas de cocina?",
+        "¡Hola! ¿En que aventuras culinarias te embarcaras hoy?",
+        "¡Hola, amante de la comida! ¿Como puedo ayudarte en la cocina?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adios",
+        "Nos vemos",
+        "Nos vemos luego",
+        "Bye",
+        "Adios cuidate",
+        "Hasta luego",
+        "Adios amigo cocinero",
+        "Hasta la proxima"
+      ],
+      "responses": [
+        "¡Adios! Si tienes mas preguntas de cocina, no dudes en volver.",
+        "¡Adios! Disfruta de tus aventuras culinarias.",
+        "¡Hasta luego! ¡Feliz cocina!.",
+        "¡Adios! Si necesitas consejos de cocina en el futuro, vuelve en cualquier momento."
+      ]
+    },
+    {
+      "tag": "gracias",
+      "patterns": [
+        "Gracias",
+        "Gracias a ti",
+        "Lo aprecio mucho",
+        "Un monton de gracias",
+        "Me salvaste la vida",
+        "Gracias amigo",
+        "Te lo agradezco",
+        "Muy agradecido"
+      ],
+      "responses": [
+        "¡De nada! Si tienes mas preguntas culinarias, solo pregunta.",
+        "No hay problema. Estoy feliz de ayudar con tus necesidades de cocina.",
+        "De nada. Cocinar es mas agradable con un poco de ayuda.",
+        "Me alegra haber podido ayudar. Si necesitas consejos de cocina, no dudes en regresar."
+      ]
+    },
+    {
+      "tag": "ingredientes",
+      "patterns": [
+        "Que ingredientes necesito para la lasana",
+        "Lista de ingredientes para el spaghetti carbonara",
+        "Dime los ingredientes de pollo ahumado",
+        "ingredientes para hamburguesa ",
+        "Que lleva la ensalada Cesar clasica?"
+      ],
+      "responses": [
+        "Para hacer lasana, necesitaras laminas de lasana, carne molida, salsa marinara, queso ricotta y queso mozzarella y especies.",
+        "Para hacer espaguetti a la carbonara necesitas espagueti, huevos, queso Pecorino Romano, panceta, pimienta negra y sal.",
+        "Para hacer una hamburguesa carne molida, tocino picado, pan para hamburguesa, cebolla, lechuga , jitomate, Diente de ajo y Aceite",
+        "Para hacer un salteado de pollo, reune pechuga de pollo, verduras (por ejemplo, pimientos, brocoli), salsa de soja, ajo y jengibre",
+        "Una ensalada Cesar clasica incluye lechuga romana, crutones, queso parmesano, aderezo Cesar y, opcionalmente, anchoas."
+      ]
+    },
+    {
+      "tag": "recetas",
+      "patterns": [
+        "¿Puedes sugerir una receta de pollo al curry?",
+        "Dame una receta para pizza casera",
+        "¿Como hago un pastel de chocolate desde cero?",
+        "¿Cual es la receta sencilla de guacamole?"
+      ],
+      "responses": [
+        "¡Claro! Aqui tienes una receta de pollo al curry: [Proporciona instrucciones detalladas de la receta]",
+        "Pizza casera: [Proporciona instrucciones detalladas de la receta]",
+        "Para hacer un pastel de chocolate desde cero: [Proporciona instrucciones detalladas de la receta]",
+        "Aqui tienes una receta sencilla de guacamole: [Proporciona instrucciones detalladas de la receta]"
+      ]
+    },
+    {
+      "tag": "sustituciones",
+      "patterns": [
+        "¿Que puedo usar como sustituto de la mantequlla?",
+        "Sustituto del azucar",
+        "Sustituto del limon",
+        "Me quede sin huevos, ¿cual es un buen sustituto de los huevos?",
+        "¿Puedo reemplazar el aceite de oliva por aceite vegetal en una receta?",
+        "¿Cual es una alternativa vegana para el queso?"
+      ],
+      "responses": [
+        "Puedes usar leche con un poco de jugo de limon o vinagre como sustituto de mantequilla.",
+        "un medo a un cuarto de  cucharaditas de miel o melaza",
+        "media  cucharadita de vinagre",
+        "Como sustituto del huevo, pruebe con pure de manzana, pure de platano o gel de linaza.",
+        "Si, puedes sustituir el aceite vegetal por aceite de oliva en la mayoria de recetas.",
+        "Hay varias alternativas de queso vegano disponibles, como quesos a base de anacardo o de soja."
+      ]
+    },
+    {
+      "tag": "coccion",
+      "patterns": [
+        "¿Cuanto tiempo debo hornear las galletas?",
+        "¿Cual es la temperatura ideal del horno para hornear pan?",
+        "Cuentame sobre los ajustes de horneado a gran altitud.",
+        "¿Como evito que mi pastel se hunda por la mitad?"
+      ],
+      "responses": [
+        "Las galletas generalmente se hornean durante 10 a 12 minutos a 350 °F (180 °C).",
+        "El pan normalmente se hornea a 375 °F (190 °C) durante 25 a 30 minutos, pero varia segun la receta.",
+        "Para hornear a gran altura, es posible que deba reducir los agentes leudantes y aumentar el liquido. La altitud importa; consulte una guia para obtener detalles.",
+        "Para evitar que el pastel se hunda, asegurese de que este completamente horneado, evite mezclar demasiado y no abra la puerta del horno demasiado pronto."
+      ]
+    },
+    {
+      "tag": "cocinas",
+      "patterns": [
+        "Hablame de la cocina italiana",
+        "¿Que tiene de especial la comida mexicana?",
+        "¿Cual es un plato popular en la cocina tailandesa?",
+        "Explicame los conceptos basicos de la cocina japonesa"
+      ],
+      "responses": [
+        "La cocina italiana es conocida por la pasta, la pizza y las sabrosas salsas como la marinara y la Alfredo.",
+        "La comida mexicana presenta sabores atrevidos, tortillas, tacos y platos como enchiladas y guacamole.",
+        "Un plato tailandes popular es el pad thai, que combina fideos salteados con camarones, tofu, mani y lima.",
+        "La cocina japonesa hace hincapie en los ingredientes frescos, el sushi, el sashimi, la tempura y el teriyaki."
+      ]
+    },
+    {
+      "tag": "sasonadores",
+      "patterns": [
+        "¿Como puedo condimentar el pollo para asar?",
+        "¿Que especias combinan bien con las verduras asadas?",
+        "Como condimentar un bistec",
+        "¿Que hierbas son buenas para dar sabor a las sopas?"
+      ],
+      "responses": [
+        "Para pollo asado, pruebe con una mezcla de ajo en polvo, pimenton, sal, pimienta y un toque de cayena para darle calor.",
+        "Las verduras asadas combinan muy bien con romero, tomillo, ajo, aceite de oliva, sal y pimienta.",
+        "Sazonar un bistec puede ser tan simple como sal, pimienta y un poco de ajo en polvo, o usar un aderezo para bistec de su eleccion.",
+        "Las hierbas comunes para las sopas incluyen albahaca, tomillo, oregano y perejil. La eleccion depende del estilo de la sopa."
+      ]
+    },
+    {
+      "tag": "postres",
+      "patterns": [
+        "¿Cual es una receta clasica de pay de manzana?",
+        "¿Como puedo hacer una rica mousse de chocolate?",
+        "Tcuentame sobre como hacer helado casero",
+        "Dame consejos para decorar cupcakes"
+      ],
+      "responses": [
+        "Aqui hay una receta clasica de pastel de manzana: [Proporcione instrucciones detalladas de la receta]",
+        "Para hacer una rica mousse de chocolate: [Proporcione instrucciones detalladas de la receta]",
+        "El helado casero incluye leche, nata, azucar y los aromas que elijas. Utilice una maquina para hacer helados"
+      ]
+    }
+  ]
+}
