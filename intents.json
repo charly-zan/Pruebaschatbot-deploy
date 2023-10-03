@@ -57,6 +57,20 @@
         "De nada. Cocinar es mas agradable con un poco de ayuda.",
         "Me alegra haber podido ayudar. Si necesitas consejos de cocina, no dudes en regresar."
       ]
+    },{
+      "tag": "ayuda",
+      "patterns": [
+        "ayuda",
+        "necesito ayuda",
+        "me puedes ayudar?",
+        "no puedo hacerlo"
+      ],
+      "responses": [
+        "claro, que necesitas",
+        "por supuesto, en que te ayudo?",
+        "en que puedo ayudarte?",
+        "dime lo que necesitas"
+      ]
     },
     {
       "tag": "ingredientes",
@@ -73,6 +87,21 @@
         "Para hacer una hamburguesa carne molida, tocino picado, pan para hamburguesa, cebolla, lechuga , jitomate, Diente de ajo y Aceite",
         "Para hacer un salteado de pollo, reune pechuga de pollo, verduras (por ejemplo, pimientos, brocoli), salsa de soja, ajo y jengibre",
         "Una ensalada Cesar clasica incluye lechuga romana, crutones, queso parmesano, aderezo Cesar y, opcionalmente, anchoas."
+      ]
+    },{
+      "tag": "pizzahut",
+      "patterns": [
+        "Que ingredientes necesito para la pizza",
+        "como hacer una pizza",
+        "quiero una pizza",
+        "como puedo hacer una pizza",
+        "que lleva la pizza?"
+      ],
+      "responses": [
+        "Para hacer pizza necesitas  1 kilogramo de harina , 1 cucharadita de sal fina, 2  tazas de agua tibia,  2 cucharadas soperas de aceite de oliva, 30 gramos de levadura fresca ",
+        "Preparar una pizza es super facil, te dejo el link de la receta.....",
+        "La pizza lleva 1 kilogramo de harina , 1 cucharadita de sal fina, 2  tazas de agua tibia,  2 cucharadas soperas de aceite de oliva, 30 gramos de levadura fresca",
+        "Claro, la reseta d ela pizza es..."
       ]
     },
     {
@@ -93,20 +122,47 @@
     {
       "tag": "sustituciones",
       "patterns": [
-        "¿Que puedo usar como sustituto de la mantequlla?",
-        "Sustituto del azucar",
-        "Sustituto del limon",
         "Me quede sin huevos, ¿cual es un buen sustituto de los huevos?",
         "¿Puedo reemplazar el aceite de oliva por aceite vegetal en una receta?",
         "¿Cual es una alternativa vegana para el queso?"
       ],
       "responses": [
-        "Puedes usar leche con un poco de jugo de limon o vinagre como sustituto de mantequilla.",
-        "un medo a un cuarto de  cucharaditas de miel o melaza",
-        "media  cucharadita de vinagre",
         "Como sustituto del huevo, pruebe con pure de manzana, pure de platano o gel de linaza.",
         "Si, puedes sustituir el aceite vegetal por aceite de oliva en la mayoria de recetas.",
         "Hay varias alternativas de queso vegano disponibles, como quesos a base de anacardo o de soja."
+      ]
+    },{
+      "tag": "sustitutoazucar",
+      "patterns": [
+        "Sustituto del azucar"
+      ],
+      "responses": [
+        "un medio a un cuarto de  cucharaditas de miel o melaza"
+      ]
+    },{
+      "tag": "sustitutolimon",
+      "patterns": [
+        "Sustituto de limon"
+      ],
+      "responses": [
+        "media  cucharadita de vinagre"
+      ]
+    },{
+      "tag": "sustitutomantequilla",
+      "patterns": [
+        "Sustituto de la mantequlla"
+      ],
+      "responses": [
+        "Puedes usar leche con un poco de jugo de limon o vinagre como sustituto de mantequilla."
+      ]
+    },{
+      "tag": "sustitutotortila",
+      "patterns": [
+        "Sustituto de la tortilla"
+      ],
+      "responses": [
+        "Puedes usar  hojas de lechugaa.",
+        "Puedes usar  hojas de col."
       ]
     },
     {
@@ -127,10 +183,10 @@
     {
       "tag": "cocinas",
       "patterns": [
-        "Hablame de la cocina italiana",
-        "¿Que tiene de especial la comida mexicana?",
-        "¿Cual es un plato popular en la cocina tailandesa?",
-        "Explicame los conceptos basicos de la cocina japonesa"
+        "Hablame de un tipo de cocina",
+        "datos de cocina",
+        "dame un dato de cocinero",
+        "dato curioso de cocina"
       ],
       "responses": [
         "La cocina italiana es conocida por la pasta, la pizza y las sabrosas salsas como la marinara y la Alfredo.",
@@ -155,17 +211,31 @@
       ]
     },
     {
+      "tag": "sasonapollo",
+      "patterns": [
+        "¿Como puedo condimentar el pollo para asar?",
+        "como condimentar el pollo",
+        "sasonador para pollo",
+        "como darle sason al pollo"
+      ],
+      "responses": [
+        "Para sasonar el pollo estilo  asado, pruebe con una mezcla de ajo en polvo, pimenton, sal, pimienta y un toque de cayena para darle calor.",
+        "se necesitan 4 cucharaditas de salvia ,3 cucharaditas de tomillo, 2 cucharaditas de mejorana ,1 cucharadita de romero, ¼ cucharadita de pimienta negra molida,⅛ cucharadita de nuez moscada"
+      ]
+    },
+    {
       "tag": "postres",
       "patterns": [
-        "¿Cual es una receta clasica de pay de manzana?",
-        "¿Como puedo hacer una rica mousse de chocolate?",
-        "Tcuentame sobre como hacer helado casero",
-        "Dame consejos para decorar cupcakes"
+        "se me antoja un postre",
+        "como hacer un postre",
+        "que necesito para hacer un postre",
+        "necesito un postre",
+        "recomiendame un postre"
       ],
       "responses": [
         "Aqui hay una receta clasica de pastel de manzana: [Proporcione instrucciones detalladas de la receta]",
         "Para hacer una rica mousse de chocolate: [Proporcione instrucciones detalladas de la receta]",
-        "El helado casero incluye leche, nata, azucar y los aromas que elijas. Utilice una maquina para hacer helados"
+        "Puedes hacer helado casero: incluye leche, nata, azucar y los aromas que elijas. Utilice una maquina para hacer helados"
       ]
     }
   ]
