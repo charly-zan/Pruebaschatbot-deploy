@@ -11,7 +11,7 @@ CORS(app)
 #    return render_template("base.html")
 @app.get("/")
 def helloWorld():
-    return "Hello, cross-origin-world!"
+    return "Bienvenido \n Servidor arriba!"
 
 @app.post("/predict")
 def predict():

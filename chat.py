@@ -7,11 +7,16 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#prueba local
+#with open('C:/Users/charlyzan/Downloads/Chatbot/Pruebaschatbot-deploy/intents.json', 'r') as json_data:
+with open('./intents.json', 'r') as json_data:
 
-with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
+#prueba local
+#FILE = "C:/Users/charlyzan/Downloads/Chatbot/Pruebaschatbot-deploy/data.pth"
+FILE = "./data.pth"
 
-FILE = "data.pth"
+
 data = torch.load(FILE)
 
 input_size = data["input_size"]
@@ -40,9 +45,12 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
+    print('Probabilidad', prob.item())
     if prob.item() > 0.75:
+        print('Probabilidad', prob.item())
         for intent in intents['intents']:
             if tag == intent["tag"]:
+                print(tag)
                 return random.choice(intent['responses'])
     
     return "No entiendo..."

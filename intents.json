@@ -73,22 +73,6 @@
       ]
     },
     {
-      "tag": "ingredientes",
-      "patterns": [
-        "Que ingredientes necesito para la lasana",
-        "Lista de ingredientes para el spaghetti carbonara",
-        "Dime los ingredientes de pollo ahumado",
-        "ingredientes para hamburguesa ",
-        "Que lleva la ensalada Cesar clasica?"
-      ],
-      "responses": [
-        "Para hacer lasana, necesitaras laminas de lasana, carne molida, salsa marinara, queso ricotta y queso mozzarella y especies.",
-        "Para hacer espaguetti a la carbonara necesitas espagueti, huevos, queso Pecorino Romano, panceta, pimienta negra y sal.",
-        "Para hacer una hamburguesa carne molida, tocino picado, pan para hamburguesa, cebolla, lechuga , jitomate, Diente de ajo y Aceite",
-        "Para hacer un salteado de pollo, reune pechuga de pollo, verduras (por ejemplo, pimientos, brocoli), salsa de soja, ajo y jengibre",
-        "Una ensalada Cesar clasica incluye lechuga romana, crutones, queso parmesano, aderezo Cesar y, opcionalmente, anchoas."
-      ]
-    },{
       "tag": "pizzahut",
       "patterns": [
         "Que ingredientes necesito para la pizza",
@@ -104,34 +88,7 @@
         "Claro, la reseta d ela pizza es..."
       ]
     },
-    {
-      "tag": "recetas",
-      "patterns": [
-        "¿Puedes sugerir una receta de pollo al curry?",
-        "Dame una receta para pizza casera",
-        "¿Como hago un pastel de chocolate desde cero?",
-        "¿Cual es la receta sencilla de guacamole?"
-      ],
-      "responses": [
-        "¡Claro! Aqui tienes una receta de pollo al curry: [Proporciona instrucciones detalladas de la receta]",
-        "Pizza casera: [Proporciona instrucciones detalladas de la receta]",
-        "Para hacer un pastel de chocolate desde cero: [Proporciona instrucciones detalladas de la receta]",
-        "Aqui tienes una receta sencilla de guacamole: [Proporciona instrucciones detalladas de la receta]"
-      ]
-    },
-    {
-      "tag": "sustituciones",
-      "patterns": [
-        "Me quede sin huevos, ¿cual es un buen sustituto de los huevos?",
-        "¿Puedo reemplazar el aceite de oliva por aceite vegetal en una receta?",
-        "¿Cual es una alternativa vegana para el queso?"
-      ],
-      "responses": [
-        "Como sustituto del huevo, pruebe con pure de manzana, pure de platano o gel de linaza.",
-        "Si, puedes sustituir el aceite vegetal por aceite de oliva en la mayoria de recetas.",
-        "Hay varias alternativas de queso vegano disponibles, como quesos a base de anacardo o de soja."
-      ]
-    },{
+   {
       "tag": "sustitutoazucar",
       "patterns": [
         "Sustituto del azucar"
@@ -193,21 +150,6 @@
         "La comida mexicana presenta sabores atrevidos, tortillas, tacos y platos como enchiladas y guacamole.",
         "Un plato tailandes popular es el pad thai, que combina fideos salteados con camarones, tofu, mani y lima.",
         "La cocina japonesa hace hincapie en los ingredientes frescos, el sushi, el sashimi, la tempura y el teriyaki."
-      ]
-    },
-    {
-      "tag": "sasonadores",
-      "patterns": [
-        "¿Como puedo condimentar el pollo para asar?",
-        "¿Que especias combinan bien con las verduras asadas?",
-        "Como condimentar un bistec",
-        "¿Que hierbas son buenas para dar sabor a las sopas?"
-      ],
-      "responses": [
-        "Para pollo asado, pruebe con una mezcla de ajo en polvo, pimenton, sal, pimienta y un toque de cayena para darle calor.",
-        "Las verduras asadas combinan muy bien con romero, tomillo, ajo, aceite de oliva, sal y pimienta.",
-        "Sazonar un bistec puede ser tan simple como sal, pimienta y un poco de ajo en polvo, o usar un aderezo para bistec de su eleccion.",
-        "Las hierbas comunes para las sopas incluyen albahaca, tomillo, oregano y perejil. La eleccion depende del estilo de la sopa."
       ]
     },
     {
