@@ -62,30 +62,21 @@
       "patterns": [
         "ayuda",
         "necesito ayuda",
-        "me puedes ayudar?",
-        "no puedo hacerlo"
+        "me puedes ayudar?"
       ],
       "responses": [
-        "claro, que necesitas",
-        "por supuesto, en que te ayudo?",
-        "en que puedo ayudarte?",
-        "dime lo que necesitas"
+        "claro, escribe sustituto de .. si quieres un sustituto de algo , sasonador para.. si buscas como complementar la receta, datos de cocina... para algún dato interesante de cocina",
+        "por supuesto, puedes escribir sustituto de .. si quieres un sustituto de algun ingrediente , sasonador para.. si buscas como complementar la receta, datos de cocina... para algún dato interesante de cocina"
       ]
     },
     {
       "tag": "pizzahut",
       "patterns": [
-        "Que ingredientes necesito para la pizza",
-        "como hacer una pizza",
-        "quiero una pizza",
-        "como puedo hacer una pizza",
-        "que lleva la pizza?"
+        "como hacer una pizza"
       ],
       "responses": [
         "Para hacer pizza necesitas  1 kilogramo de harina , 1 cucharadita de sal fina, 2  tazas de agua tibia,  2 cucharadas soperas de aceite de oliva, 30 gramos de levadura fresca ",
-        "Preparar una pizza es super facil, te dejo el link de la receta.....",
-        "La pizza lleva 1 kilogramo de harina , 1 cucharadita de sal fina, 2  tazas de agua tibia,  2 cucharadas soperas de aceite de oliva, 30 gramos de levadura fresca",
-        "Claro, la reseta d ela pizza es..."
+        "La pizza lleva 1 kilogramo de harina , 1 cucharadita de sal fina, 2  tazas de agua tibia,  2 cucharadas soperas de aceite de oliva, 30 gramos de levadura fresca"
       ]
     },
    {
@@ -102,7 +93,17 @@
         "Sustituto de limon"
       ],
       "responses": [
-        "media  cucharadita de vinagre"
+        "media  cucharadita de vinagre",
+        "Se puede sustituir con naranja agria"
+      ]
+    },{
+      "tag": "sustitutochilehuajillo",
+      "patterns": [
+        "Sustituto de chile guajillo"
+      ],
+      "responses": [
+        "puedes usar chiles anchos",
+        "Se podria usar chile pasilla"
       ]
     },{
       "tag": "sustitutomantequilla",
@@ -113,6 +114,14 @@
         "Puedes usar leche con un poco de jugo de limon o vinagre como sustituto de mantequilla."
       ]
     },{
+      "tag": "sustitutoajo",
+      "patterns": [
+        "Sustituto del ajo"
+      ],
+      "responses": [
+        "Puedes usar media cucharada de sal de ajo."
+      ]
+    },{
       "tag": "sustitutotortila",
       "patterns": [
         "Sustituto de la tortilla"
@@ -121,20 +130,15 @@
         "Puedes usar  hojas de lechugaa.",
         "Puedes usar  hojas de col."
       ]
-    },
-    {
-      "tag": "coccion",
+    },{
+      "tag": "sustitutojamon",
       "patterns": [
-        "¿Cuanto tiempo debo hornear las galletas?",
-        "¿Cual es la temperatura ideal del horno para hornear pan?",
-        "Cuentame sobre los ajustes de horneado a gran altitud.",
-        "¿Como evito que mi pastel se hunda por la mitad?"
+        "Sustituto del jamon"
       ],
       "responses": [
-        "Las galletas generalmente se hornean durante 10 a 12 minutos a 350 °F (180 °C).",
-        "El pan normalmente se hornea a 375 °F (190 °C) durante 25 a 30 minutos, pero varia segun la receta.",
-        "Para hornear a gran altura, es posible que deba reducir los agentes leudantes y aumentar el liquido. La altitud importa; consulte una guia para obtener detalles.",
-        "Para evitar que el pastel se hunda, asegurese de que este completamente horneado, evite mezclar demasiado y no abra la puerta del horno demasiado pronto."
+        "Puedes usar pollo cocinado de la forma que gustes.",
+        "Puedes usar  jamon de soya.",
+        "Puedes usar salami"
       ]
     },
     {
@@ -155,29 +159,23 @@
     {
       "tag": "sasonapollo",
       "patterns": [
-        "¿Como puedo condimentar el pollo para asar?",
-        "como condimentar el pollo",
-        "sasonador para pollo",
-        "como darle sason al pollo"
+        "sazonador  para pollo",
+        "algun sazonador  para pollo"
       ],
       "responses": [
-        "Para sasonar el pollo estilo  asado, pruebe con una mezcla de ajo en polvo, pimenton, sal, pimienta y un toque de cayena para darle calor.",
+        "Para sazonador  el pollo estilo  asado, pruebe con una mezcla de ajo en polvo, pimenton, sal, pimienta y un toque de cayena para darle calor.",
         "se necesitan 4 cucharaditas de salvia ,3 cucharaditas de tomillo, 2 cucharaditas de mejorana ,1 cucharadita de romero, ¼ cucharadita de pimienta negra molida,⅛ cucharadita de nuez moscada"
       ]
     },
     {
-      "tag": "postres",
+      "tag": "sasonacarne",
       "patterns": [
-        "se me antoja un postre",
-        "como hacer un postre",
-        "que necesito para hacer un postre",
-        "necesito un postre",
-        "recomiendame un postre"
+        "sazonador  para carne",
+        "algun sazonador  para carne"
       ],
       "responses": [
-        "Aqui hay una receta clasica de pastel de manzana: [Proporcione instrucciones detalladas de la receta]",
-        "Para hacer una rica mousse de chocolate: [Proporcione instrucciones detalladas de la receta]",
-        "Puedes hacer helado casero: incluye leche, nata, azucar y los aromas que elijas. Utilice una maquina para hacer helados"
+        "especias más utilizadas en los guisos con ternera son la pimienta negra molida, la nuez moscada o el pimentón (o el comino molido)",
+        "vino, cerveza o darle un toque utilizando ajos picados."
       ]
     }
   ]
